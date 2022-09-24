@@ -64,14 +64,14 @@
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
 				"name" : "kl.sound.in.v01.maxpat",
-				"bootpath" : "~/Desktop/Sound-synth/week 1",
+				"bootpath" : "~/Desktop/myClasses/sound-synth-tech/week 1",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "kl.sound.out.v01.stereo.maxpat",
-				"bootpath" : "~/Desktop/Sound-synth/week 1",
+				"bootpath" : "~/Desktop/myClasses/sound-synth-tech/week 1",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

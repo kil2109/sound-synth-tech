@@ -1,0 +1,84 @@
+Last login: Sun Sep 18 13:53:49 on ttys000
+katrinelaukli@Katrines-MacBook-Air ~ % cd sounth-synth
+cd: no such file or directory: sounth-synth
+katrinelaukli@Katrines-MacBook-Air ~ % cd sound-synth
+cd: no such file or directory: sound-synth
+katrinelaukli@Katrines-MacBook-Air ~ % cd sound-synth-tech
+cd: no such file or directory: sound-synth-tech
+katrinelaukli@Katrines-MacBook-Air ~ % git status
+fatal: not a git repository (or any of the parent directories): .git
+katrinelaukli@Katrines-MacBook-Air ~ % cd myClasses
+cd: no such file or directory: myClasses
+katrinelaukli@Katrines-MacBook-Air ~ % cd /Users/katrinelaukli/Desktop/myClasses 
+katrinelaukli@Katrines-MacBook-Air myClasses % 
+katrinelaukli@Katrines-MacBook-Air myClasses % git status
+fatal: not a git repository (or any of the parent directories): .git
+katrinelaukli@Katrines-MacBook-Air myClasses % cd /Users/katrinelaukli/Desktop/myClasses/sound-synth-tech
+katrinelaukli@Katrines-MacBook-Air sound-synth-tech % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .DS_Store
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	week 1/Terminal Saved Output 2
+	week 2/bach.poly04.dirty.synth.maxpat
+	week 2/monophonic.synth.maxpat
+
+no changes added to commit (use "git add" and/or "git commit -a")
+katrinelaukli@Katrines-MacBook-Air sound-synth-tech % git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+	add
+katrinelaukli@Katrines-MacBook-Air sound-synth-tech % git add .
+katrinelaukli@Katrines-MacBook-Air sound-synth-tech % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   .DS_Store
+	new file:   week 1/Terminal Saved Output 2
+	new file:   week 2/bach.poly04.dirty.synth.maxpat
+	new file:   week 2/monophonic.synth.maxpat
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .DS_Store
+
+katrinelaukli@Katrines-MacBook-Air sound-synth-tech % git commit -m "week 2 assignments"
+[main 6814bc2] week 2 assignments
+ Committer: Katrine Laukli <katrinelaukli@Katrines-MacBook-Air.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 1601 insertions(+)
+ create mode 100644 week 1/Terminal Saved Output 2
+ create mode 100644 week 2/bach.poly04.dirty.synth.maxpat
+ create mode 100644 week 2/monophonic.synth.maxpat
+katrinelaukli@Katrines-MacBook-Air sound-synth-tech % git push origin main
+Enumerating objects: 12, done.
+Counting objects: 100% (12/12), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 14.69 KiB | 4.90 MiB/s, done.
+Total 8 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 3 local objects.
+To https://github.com/kil2109/sound-synth-tech.git
+   04c0038..6814bc2  main -> main
+katrinelaukli@Katrines-MacBook-Air sound-synth-tech % 

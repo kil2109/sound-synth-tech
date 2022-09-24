@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 16.0, 67.0, 1347.0, 760.0 ],
+		"rect" : [ 34.0, 87.0, 1347.0, 760.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1322,7 +1322,7 @@
 , 			{
 				"name" : "bach.mc2f.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach 2/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/bach 2/patchers",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/bach 2/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
