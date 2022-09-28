@@ -1,0 +1,80 @@
+Last login: Wed Sep 21 11:56:19 on ttys000
+katrinelaukli@Katrines-MacBook-Air ~ % cd sound-synth-tech
+cd: no such file or directory: sound-synth-tech
+katrinelaukli@Katrines-MacBook-Air ~ % 
+katrinelaukli@Katrines-MacBook-Air ~ % cd myClasses
+cd: no such file or directory: myClasses
+katrinelaukli@Katrines-MacBook-Air ~ % cd sound-synth-tech
+cd: no such file or directory: sound-synth-tech
+katrinelaukli@Katrines-MacBook-Air ~ % cd /Users/katrinelaukli/Desktop/myClasses/sound-synth-tech
+katrinelaukli@Katrines-MacBook-Air sound-synth-tech % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .DS_Store
+	modified:   week 1/_scaffold.v01.stereo.maxpat
+	modified:   week 2/01.basic.waveforms.maxpat
+	modified:   week 2/05.additive.synth.maxpat
+	modified:   week 2/bach.poly04.dirty.synth.maxpat
+	modified:   week 2/monophonic.synth.maxpat
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	week 2/Terminal Saved Output
+	week 3/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+katrinelaukli@Katrines-MacBook-Air sound-synth-tech % git add .
+katrinelaukli@Katrines-MacBook-Air sound-synth-tech % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   .DS_Store
+	modified:   week 1/_scaffold.v01.stereo.maxpat
+	modified:   week 2/01.basic.waveforms.maxpat
+	modified:   week 2/05.additive.synth.maxpat
+	new file:   week 2/Terminal Saved Output
+	modified:   week 2/bach.poly04.dirty.synth.maxpat
+	modified:   week 2/monophonic.synth.maxpat
+	new file:   week 3/.DS_Store
+	new file:   week 3/01.bach.poly05.polyphony.maxpat
+	new file:   week 3/kl.02.RM.AM.FM.onWaveforms.v1.maxpat
+	new file:   week 3/simple.voice.PolyCore.v01.maxpat
+
+katrinelaukli@Katrines-MacBook-Air sound-synth-tech % git commit -m "week 2 and week 3 assignments/updates"
+[main 4403df4] week 2 and week 3 assignments/updates
+ Committer: Katrine Laukli <katrinelaukli@Katrines-MacBook-Air.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 11 files changed, 3079 insertions(+), 28 deletions(-)
+ create mode 100644 week 2/Terminal Saved Output
+ create mode 100644 week 3/.DS_Store
+ create mode 100644 week 3/01.bach.poly05.polyphony.maxpat
+ create mode 100644 week 3/kl.02.RM.AM.FM.onWaveforms.v1.maxpat
+ create mode 100644 week 3/simple.voice.PolyCore.v01.maxpat
+katrinelaukli@Katrines-MacBook-Air sound-synth-tech % git push origin main
+Enumerating objects: 25, done.
+Counting objects: 100% (25/25), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (16/16), 18.49 KiB | 6.16 MiB/s, done.
+Total 16 (delta 10), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (10/10), completed with 8 local objects.
+To https://github.com/kil2109/sound-synth-tech.git
+   6814bc2..4403df4  main -> main
+katrinelaukli@Katrines-MacBook-Air sound-synth-tech % 

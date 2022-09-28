@@ -204,8 +204,20 @@
 , 			{
 				"box" : 				{
 					"basictuning" : 0,
+					"clipheight" : 128.0,
 					"data" : 					{
-						"clips" : [  ]
+						"clips" : [ 							{
+								"absolutepath" : "/Users/katrinelaukli/Desktop/myClasses/sound-synth-tech/media/648437__timouse__piano-loop-21.wav",
+								"filename" : "648437__timouse__piano-loop-21.wav",
+								"filekind" : "audiofile",
+								"id" : "u181002707",
+								"loop" : 1,
+								"content_state" : 								{
+									"loop" : 1
+								}
+
+							}
+ ]
 					}
 ,
 					"followglobaltempo" : 0,
@@ -506,9 +518,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }

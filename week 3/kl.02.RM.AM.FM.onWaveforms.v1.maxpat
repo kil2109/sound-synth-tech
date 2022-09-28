@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1335.0, 779.0 ],
+		"rect" : [ 635.0, 91.0, 1335.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -831,12 +831,6 @@
 			}
 , 			{
 				"box" : 				{
-					"connections" : [ 						{
-							"in" : 3,
-							"out" : 1,
-							"gain" : 0.925
-						}
- ],
 					"dividers" : "none",
 					"fontface" : 0,
 					"fontname" : "Arial",
