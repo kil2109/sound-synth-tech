@@ -1,0 +1,132 @@
+Last login: Tue Oct  4 14:48:44 on ttys002
+katrinelaukli@dyn-160-39-131-28 ~ % cd /Users/katrinelaukli/Downloads/git-lfs-3.2.0
+katrinelaukli@dyn-160-39-131-28 git-lfs-3.2.0 % /install.sh
+zsh: no such file or directory: /install.sh
+katrinelaukli@dyn-160-39-131-28 git-lfs-3.2.0 % cd /Users/katrinelaukli/Downloads/git-lfs-3.2.0
+katrinelaukli@dyn-160-39-131-28 git-lfs-3.2.0 % sudo ./install.sh
+Password:
+Sorry, try again.
+Password:
+Git LFS initialized.
+katrinelaukli@dyn-160-39-131-28 git-lfs-3.2.0 % cd /Users/katrinelaukli/Desktop/myClasses/sound-synth-tech
+katrinelaukli@dyn-160-39-131-28 sound-synth-tech % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .DS_Store
+	modified:   media/.DS_Store
+	modified:   week 3/kl.02.RM.AM.FM.onWaveforms.v1.maxpat
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	RB.vox.sung.fare.you.well.Bb.minor.sdif
+	media/RB.vox/
+	week 3/Terminal Saved Output git lfs
+	week 4/01.sinusoids.v01.maxpat
+	week 4/02.sinusoids.v02.maxpat
+	week 4/05.phi.v02.maxpat
+	week 4/RB.vox.sung.fare.you.well.Bb.minor.sdif
+
+no changes added to commit (use "git add" and/or "git commit -a")
+katrinelaukli@dyn-160-39-131-28 sound-synth-tech % git lfs install
+Updated Git hooks.
+Git LFS initialized.
+katrinelaukli@dyn-160-39-131-28 sound-synth-tech % git lfs track "*.wav"
+Tracking "*.wav"
+katrinelaukli@dyn-160-39-131-28 sound-synth-tech % git lfs track "*.aif"
+Tracking "*.aif"
+katrinelaukli@dyn-160-39-131-28 sound-synth-tech % git lfs track "*.aiff"
+Tracking "*.aiff"
+katrinelaukli@dyn-160-39-131-28 sound-synth-tech % git lfs track "*.mp3"   
+Tracking "*.mp3"
+katrinelaukli@dyn-160-39-131-28 sound-synth-tech % git lfs track "*.m4a"
+Tracking "*.m4a"
+katrinelaukli@dyn-160-39-131-28 sound-synth-tech % git lfs track "*.flac"
+Tracking "*.flac"
+katrinelaukli@dyn-160-39-131-28 sound-synth-tech % git lfs track "*.pdf" 
+Tracking "*.pdf"
+katrinelaukli@dyn-160-39-131-28 sound-synth-tech % git lfs track "*.musx"
+Tracking "*.musx"
+katrinelaukli@dyn-160-39-131-28 sound-synth-tech % git lfs track "*.sib" 
+Tracking "*.sib"
+katrinelaukli@dyn-160-39-131-28 sound-synth-tech % git lfs track "*.mid"
+Tracking "*.mid"
+katrinelaukli@dyn-160-39-131-28 sound-synth-tech % git lfs track "*.midi"
+Tracking "*.midi"
+katrinelaukli@dyn-160-39-131-28 sound-synth-tech % git lfs track "*.sdif"
+Tracking "*.sdif"
+katrinelaukli@dyn-160-39-131-28 sound-synth-tech % git add .
+katrinelaukli@dyn-160-39-131-28 sound-synth-tech % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   .DS_Store
+	new file:   .gitattributes
+	new file:   RB.vox.sung.fare.you.well.Bb.minor.sdif
+	modified:   media/.DS_Store
+	modified:   media/648437__timouse__piano-loop-21.wav
+	new file:   media/RB.vox/RB.vox.spoken.langston.hughes.wav
+	new file:   media/RB.vox/RB.vox.spoken.vowels.F#3-A#3.wav
+	new file:   media/RB.vox/RB.vox.sung.consonants.s.f.k.t.Db4.wav
+	new file:   media/RB.vox/RB.vox.sung.fare.you.well.Bb.minor.wav
+	new file:   media/RB.vox/RB.vox.sung.vocalizations.Db4-F4.wav
+	new file:   media/RB.vox/RB.vox.sung.vowels.Bb3.wav
+	new file:   media/RB.vox/RB.vox.whispered.langston.hughes.wav
+	new file:   week 3/Terminal Saved Output git lfs
+	modified:   week 3/kl.02.RM.AM.FM.onWaveforms.v1.maxpat
+	new file:   week 4/01.sinusoids.v01.maxpat
+	new file:   week 4/02.sinusoids.v02.maxpat
+	new file:   week 4/05.phi.v02.maxpat
+	new file:   week 4/RB.vox.sung.fare.you.well.Bb.minor.sdif
+
+katrinelaukli@dyn-160-39-131-28 sound-synth-tech % git commit -m "first commit with lfs"
+[main 153c8d2] first commit with lfs
+ Committer: Katrine Laukli <katrinelaukli@dyn-160-39-131-28.dyn.columbia.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 18 files changed, 2782 insertions(+), 3 deletions(-)
+ create mode 100644 .gitattributes
+ create mode 100644 RB.vox.sung.fare.you.well.Bb.minor.sdif
+ create mode 100644 media/RB.vox/RB.vox.spoken.langston.hughes.wav
+ create mode 100644 media/RB.vox/RB.vox.spoken.vowels.F#3-A#3.wav
+ create mode 100644 media/RB.vox/RB.vox.sung.consonants.s.f.k.t.Db4.wav
+ create mode 100644 media/RB.vox/RB.vox.sung.fare.you.well.Bb.minor.wav
+ create mode 100644 media/RB.vox/RB.vox.sung.vocalizations.Db4-F4.wav
+ create mode 100644 media/RB.vox/RB.vox.sung.vowels.Bb3.wav
+ create mode 100644 media/RB.vox/RB.vox.whispered.langston.hughes.wav
+ create mode 100644 week 3/Terminal Saved Output git lfs
+ create mode 100644 week 4/01.sinusoids.v01.maxpat
+ create mode 100644 week 4/02.sinusoids.v02.maxpat
+ create mode 100644 week 4/05.phi.v02.maxpat
+ create mode 100644 week 4/RB.vox.sung.fare.you.well.Bb.minor.sdif
+katrinelaukli@dyn-160-39-131-28 sound-synth-tech % git push origin main
+Uploading LFS objects: 100% (10/10), 29 MB | 4.6 MB/s, done.                    
+Enumerating objects: 32, done.
+Counting objects: 100% (32/32), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (24/24), done.
+Writing objects: 100% (24/24), 9.11 KiB | 4.55 MiB/s, done.
+Total 24 (delta 7), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (7/7), completed with 4 local objects.
+To https://github.com/kil2109/sound-synth-tech.git
+   d1a2347..153c8d2  main -> main
+katrinelaukli@dyn-160-39-131-28 sound-synth-tech % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+katrinelaukli@dyn-160-39-131-28 sound-synth-tech % 
