@@ -1,0 +1,26 @@
+Last login: Wed Sep 28 11:41:37 on ttys000
+katrinelaukli@dyn-160-39-131-28 ~ % cd /Users/katrinelaukli/Downloads/git-lfs-3.2.0\ 3
+katrinelaukli@dyn-160-39-131-28 git-lfs-3.2.0 3 % ./install.sh
+mkdir: /usr/local/bin: Permission denied
+katrinelaukli@dyn-160-39-131-28 git-lfs-3.2.0 3 % cd /Users/katrinelaukli/Downloads/git-lfs-3.2.0\ 4
+katrinelaukli@dyn-160-39-131-28 git-lfs-3.2.0 4 % ./install.sh
+mkdir: /usr/local/bin: Permission denied
+katrinelaukli@dyn-160-39-131-28 git-lfs-3.2.0 4 % cd /Users/katrinelaukli/Downloads/git-lfs-3.2.0\ /install.sh
+cd: no such file or directory: /Users/katrinelaukli/Downloads/git-lfs-3.2.0 /install.sh
+katrinelaukli@dyn-160-39-131-28 git-lfs-3.2.0 4 %   
+katrinelaukli@dyn-160-39-131-28 git-lfs-3.2.0 4 % /install.sh
+zsh: no such file or directory: /install.sh
+katrinelaukli@dyn-160-39-131-28 git-lfs-3.2.0 4 % cd /Users/katrinelaukli/Downloads/git-lfs-3.2.0
+katrinelaukli@dyn-160-39-131-28 git-lfs-3.2.0 % /install.sh
+zsh: no such file or directory: /install.sh
+katrinelaukli@dyn-160-39-131-28 git-lfs-3.2.0 % git lfs install
+git: 'lfs' is not a git command. See 'git --help'.
+
+The most similar command is
+	log
+katrinelaukli@dyn-160-39-131-28 git-lfs-3.2.0 % cd /Users/katrinelaukli/Downloads/git-lfs-3.2.0\ 2
+katrinelaukli@dyn-160-39-131-28 git-lfs-3.2.0 2 % /install.sh
+zsh: no such file or directory: /install.sh
+katrinelaukli@dyn-160-39-131-28 git-lfs-3.2.0 2 % /install.sh
+zsh: no such file or directory: /install.sh
+katrinelaukli@dyn-160-39-131-28 git-lfs-3.2.0 2 % 
