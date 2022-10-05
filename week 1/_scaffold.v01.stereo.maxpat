@@ -63,6 +63,13 @@
  ],
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
+				"name" : "648437__timouse__piano-loop-21.wav",
+				"bootpath" : "~/Desktop/myClasses/sound-synth-tech/media",
+				"patcherrelativepath" : "../media",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "kl.sound.in.v01.maxpat",
 				"bootpath" : "~/Desktop/myClasses/sound-synth-tech/week 1",
 				"patcherrelativepath" : ".",
