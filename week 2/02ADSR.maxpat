@@ -40,6 +40,19 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-7",
+					"linecount" : 23,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 294.0, 124.0, 154.0, 315.0 ],
+					"text" : "Currently you don't hear anything because the domain in this <function> object is set to 1 (i.e. 1 miiisecond). So in the inspector you can set it, but you can also enter a new number in the <f> box connected to your setdomain message. I think we used 2000 ms (i.e. 2 seconds) in class.\n\nAlso, the first and last of the points in your <function> object need to have a value of zero, or else you'll have a constant signal appearing in the <live.gain~> object, as you can see here. So just drag those points down to zero and it'll be fixed.",
+					"textcolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"format" : 6,
 					"id" : "obj-41",
 					"maxclass" : "flonum",
@@ -158,8 +171,8 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 0.0, 0, 347.067375886525156, 0.96, 0, 475.875886524824296, 0.706666666666667, 0, 1291.663120567376154, 0.693333333333333, 0, 2018.000000000001819, 0.0, 0 ],
-					"domain" : 2018.0,
+					"addpoints" : [ 0.0, 0.0, 0, 343.9716312056741, 0.96, 0, 471.631205673760462, 0.706666666666667, 0, 1280.141843971631488, 0.693333333333333, 0, 2000.000000000001819, 0.0, 0 ],
+					"domain" : 2000.0,
 					"id" : "obj-25",
 					"maxclass" : "function",
 					"numinlets" : 1,

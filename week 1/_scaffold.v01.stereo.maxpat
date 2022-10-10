@@ -63,9 +63,51 @@
  ],
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
-				"name" : "648437__timouse__piano-loop-21.wav",
-				"bootpath" : "~/Desktop/myClasses/sound-synth-tech/media",
-				"patcherrelativepath" : "../media",
+				"name" : "RB.vox.spoken.langston.hughes.wav",
+				"bootpath" : "~/Desktop/myClasses/sound-synth-tech/media/RB.vox",
+				"patcherrelativepath" : "../media/RB.vox",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "RB.vox.spoken.vowels.F#3-A#3.wav",
+				"bootpath" : "~/Desktop/myClasses/sound-synth-tech/media/RB.vox",
+				"patcherrelativepath" : "../media/RB.vox",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "RB.vox.sung.consonants.s.f.k.t.Db4.wav",
+				"bootpath" : "~/Desktop/myClasses/sound-synth-tech/media/RB.vox",
+				"patcherrelativepath" : "../media/RB.vox",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "RB.vox.sung.fare.you.well.Bb.minor.wav",
+				"bootpath" : "~/Desktop/myClasses/sound-synth-tech/media/RB.vox",
+				"patcherrelativepath" : "../media/RB.vox",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "RB.vox.sung.vocalizations.Db4-F4.wav",
+				"bootpath" : "~/Desktop/myClasses/sound-synth-tech/media/RB.vox",
+				"patcherrelativepath" : "../media/RB.vox",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "RB.vox.sung.vowels.Bb3.wav",
+				"bootpath" : "~/Desktop/myClasses/sound-synth-tech/media/RB.vox",
+				"patcherrelativepath" : "../media/RB.vox",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "RB.vox.whispered.langston.hughes.wav",
+				"bootpath" : "~/Desktop/myClasses/sound-synth-tech/media/RB.vox",
+				"patcherrelativepath" : "../media/RB.vox",
 				"type" : "WAVE",
 				"implicit" : 1
 			}

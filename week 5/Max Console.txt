@@ -1,0 +1,127 @@
+--- bach: automated composer's helper ---
+© 2010-2022 - Andrea Agostini and Daniele Ghisi
+The bach project is maintained thanks to our generous supporters on Patreon.
+Please consider supporting us on www.patreon.com/bachproject for as little as the price of a coffee.
+v0.8.1.5 beta
+sin-transform: sin-transform: No such object
+CNMAT Externals v1.0.5-0-g2626bdfb, compiled Fri Apr 22 12:53:49 PDT 2022
+resdisplay by John MacCallum.
+Copyright (c) 2010,12,13,17 Regents of the University of California.  All rights reserved.
+sinusoids~ by Adrian Freed.
+Copyright (c) 1988-99,2000-08,12,13 Regents of the University of California.  All rights reserved.
+Maximum Oscillators: 1024
+Never expires
+threefates by Tim Madden and Matt Wright.
+Copyright (c) 2000-05,12,13 Regents of the University of California.  All rights reserved.
+SDIF-tuples by Matt Wright and Ben Jacobs.
+Copyright (c) 1999,2000-07,12,13 Regents of the University of California.  All rights reserved.
+SDIF-buffer by Matt Wright and Ben Jacobs (based on sample code from David Zicarelli).
+Copyright (c) 1999,2000-06,12,13 Regents of the University of California.  All rights reserved.
+res-transform by Adrian Freed, Matt Wright, and Michael Zbyszynski.
+Copyright (c) 1996-2006,12,13 Regents of the University of California.  All rights reserved.
+  Portions copyright (c) 1986,1987 Adrian Freed
+o.route: o.route: No such object
+SDIF-info by Matt Wright and Ben Jacobs.
+Copyright (c) 2002-06,12,13 Regents of the University of California.  All rights reserved.
+SDIF-buffer: error reading header of SDIF file Macintosh HD:/Users/katrinelaukli/Desktop/myClasses/sound-synth-tech/media/648437__timouse__piano-loop-21.wav:
+  Bad SDIF header
+  ferror() returned 0:
+      Undefined error: 0
+SDIF-buffer: SDIFBuffer katrine: file "(null)"
+SDIF-buffer:    No frames!
+SDIF-buffer: error reading header of SDIF file Macintosh HD:/Users/katrinelaukli/Desktop/myClasses/sound-synth-tech/media/648437__timouse__piano-loop-21.wav:
+  Bad SDIF header
+  ferror() returned 0:
+      Undefined error: 0
+resonators~ by Adrian Freed.
+Copyright (c) 1996-07,12,13 Regents of the University of California.  All rights reserved.
+Portions copyright (c) 1986, 1987 Adrian Freed
+Maximum number of resonances: 1024
+Never expires
+SDIF-buffer: error reading header of SDIF file Macintosh HD:/Users/katrinelaukli/Desktop/myClasses/sound-synth-tech/media/RB.vox/RB.vox.sung.fare.you.well.Bb.minor.wav:
+  Bad SDIF header
+  ferror() returned 0:
+      Undefined error: 0
+playlist~: "0" is not a valid mode.
+playlist~: "0" is not a valid quality.
+playlist~: "0" is not a valid mode.
+playlist~: "0" is not a valid quality.
+playlist~: "0" is not a valid mode.
+playlist~: "0" is not a valid quality.
+playlist~: "0" is not a valid mode.
+playlist~: "0" is not a valid quality.
+bach.portal: out p has no effect in a top-level patcher: defaulting to native
+cage.sdif.: cage.sdif.: No such object
+bach.portal: out p has no effect in a top-level patcher: defaulting to native
+bach.portal: out p has no effect in a top-level patcher: defaulting to native
+bach.print: done
+playlist~: "0" is not a valid mode.
+playlist~: "0" is not a valid quality.
+playlist~: "0" is not a valid mode.
+playlist~: "0" is not a valid quality.
+cycle~: cannot set frequency: number is not finite
+cycle~: cannot set frequency: number is not finite
+cycle~: cannot set frequency: number is not finite
+cycle~: cannot set frequency: number is not finite
+cycle~: cannot set frequency: number is not finite
+series:: 1. 2. 3. 4. 5. 6. 7.
+ƒc+m.series:: 719.248849 915.246567 1111.244285 1307.242003 1503.239721 1699.237439 1895.235157
+ƒc.series:: 195.997718 391.995436 587.993154 783.990872 979.98859 1175.986308 1371.984026
+ƒc+ƒm:: 195.997718 523.251131
+series:: 1. 2. 3. 4. 5. 6. 7.
+ƒc+m.series:: 605.348275 801.345993 997.343711 1193.341429 1389.339147 1585.336865 1781.334583
+ƒc.series:: 195.997718 391.995436 587.993154 783.990872 979.98859 1175.986308 1371.984026
+ƒc+ƒm:: 195.997718 409.350557
+series:: 1. 2. 3. 4. 5. 6. 7.
+bach.print: clear
+bach.print: addchord [ 0. [ $1 1000. 100 ] [ $1 1000. 100 ] [ $1 1000. 100 ] [ $1 1000. 100 ] [ $1 1000. 100 ] [ $1 1000. 100 ] [ $1 1000. 100 ] ]
+ƒc+m.series:: 599.479497 795.477215 991.474933 1187.472651 1383.470369 1579.468087 1775.465805
+ƒc.series:: 195.997718 391.995436 587.993154 783.990872 979.98859 1175.986308 1371.984026
+ƒc+ƒm:: 195.997718 403.481779
+series:: 1. 2. 3. 4. 5. 6. 7.
+bach.print: clear
+bach.print: addchord [ 0. [ $1 1000. 100 ] [ $1 1000. 100 ] [ $1 1000. 100 ] [ $1 1000. 100 ] [ $1 1000. 100 ] [ $1 1000. 100 ] [ $1 1000. 100 ] ]
+ƒc+m.series:: 593.694859 789.692577 985.690295 1181.688013 1377.685731 1573.683449 1769.681167
+ƒc.series:: 195.997718 391.995436 587.993154 783.990872 979.98859 1175.986308 1371.984026
+ƒc+ƒm:: 195.997718 397.697141
+series:: 1. 2. 3. 4. 5. 6. 7.
+bach.print: clear
+bach.print: addchord [ 0. [ $1 1000. 100 ] [ 7435.448266 1000. 100 ] [ 7925.180501 1000. 100 ] [ 8306.487329 1000. 100 ] [ 8618.782629 1000. 100 ] [ 8883.259579 1000. 100 ] [ 9112.636031 1000. 100 ] [ 9315.146575 1000. 100 ] ]
+ƒc+m.series:: 599.479497 795.477215 991.474933 1187.472651 1383.470369 1579.468087 1775.465805
+ƒc.series:: 195.997718 391.995436 587.993154 783.990872 979.98859 1175.986308 1371.984026
+ƒc+ƒm:: 195.997718 403.481779
+series:: 1. 2. 3. 4. 5. 6. 7.
+bach.print: clear
+bach.print: addchord [ 0. [ 8108.713976 1000. 100 ] [ 8455.249458 1000. 100 ] [ 8743.854909 1000. 100 ] [ 8991.152699 1000. 100 ] [ 9207.50035 1000. 100 ] [ 9399.790245 1000. 100 ] [ 9572.841386 1000. 100 ] ]
+ƒc+m.series:: 884.440549 1080.438267 1276.435985 1472.433703 1668.431421 1864.429139 2060.426857
+ƒc.series:: 195.997718 391.995436 587.993154 783.990872 979.98859 1175.986308 1371.984026
+ƒc+ƒm:: 195.997718 688.442831
+series:: 1. 2. 3. 4. 5. 6. 7.
+bach.print: clear
+bach.print: addchord [ 0. [ 9732.12697 1000. 100 ] [ 9876.172156 1000. 100 ] [ 10009.147407 1000. 100 ] [ 10132.633426 1000. 100 ] [ 10247.894791 1000. 100 ] [ 10355.95901 1000. 100 ] [ 10457.67231 1000. 100 ] ]
+ƒc+m.series:: 2258.99525 2454.992968 2650.990686 2846.988404 3042.986122 3238.98384 3434.981558
+ƒc.series:: 195.997718 391.995436 587.993154 783.990872 979.98859 1175.986308 1371.984026
+ƒc+ƒm:: 195.997718 2062.997532
+series:: 1. 2. 3. 4. 5. 6. 7.
+bach.print: clear
+bach.print: addchord [ 0. [ 5834.697728 1000. 100 ] [ 6115.053084 1000. 100 ] [ 6356.272035 1000. 100 ] [ 6567.954608 1000. 100 ] [ 6756.55135 1000. 100 ] [ 6926.606176 1000. 100 ] [ 7081.440839 1000. 100 ] ]
+ƒc+m.series:: 237.800481 279.603243 321.406006 363.208768 405.011531 446.814293 488.617056
+ƒc.series:: 41.802763 83.605525 125.408288 167.21105 209.013813 250.816575 292.619338
+ƒc+ƒm:: 41.802763 195.997718
+series:: 1. 2. 3. 4. 5. 6. 7.
+bach.print: clear
+bach.print: addchord [ 0. [ 6137.821678 1000. 100 ] [ 6602.886509 1000. 100 ] [ 6969.106274 1000. 100 ] [ 7271.220844 1000. 100 ] [ 7528.36469 1000. 100 ] [ 7752.207455 1000. 100 ] [ 7950.39377 1000. 100 ] ]
+ƒc+m.series:: 283.304776 370.611834 457.918892 545.225949 632.533007 719.840065 807.147123
+ƒc.series:: 87.307058 174.614116 261.921174 349.228231 436.535289 523.842347 611.149405
+ƒc+ƒm:: 87.307058 195.997718
+bpatcher: bpatcher: error loading patcher z.credits.v01.bp.maxpat
+bpatcher: bpatcher: error loading patcher z.credits.v01.bp.maxpat
+interleave by Tim Madden.
+Copyright (c) 2000-06,12,13 Regents of the University of California.  All rights reserved.
+deinterleave by Tim Madden and Matt Wright.
+Copyright (c) 2000-06,12,13 Regents of the University of California.  All rights reserved.
+bpatcher: bpatcher: error loading patcher z.credits.v01.bp.maxpat
+bach.print: done
+index~: missing required arguments creating object
+i: bad arguments creating object
+fftinfo~: ff

@@ -40,6 +40,109 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"basictuning" : 440,
+					"clipheight" : 20.0,
+					"data" : 					{
+						"clips" : [ 							{
+								"absolutepath" : "/Users/katrinelaukli/Desktop/myClasses/sound-synth-tech/media/RB.vox/RB.vox.spoken.langston.hughes.wav",
+								"filename" : "RB.vox.spoken.langston.hughes.wav",
+								"filekind" : "audiofile",
+								"id" : "u992010941",
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+, 							{
+								"absolutepath" : "/Users/katrinelaukli/Desktop/myClasses/sound-synth-tech/media/RB.vox/RB.vox.spoken.vowels.F#3-A#3.wav",
+								"filename" : "RB.vox.spoken.vowels.F#3-A#3.wav",
+								"filekind" : "audiofile",
+								"id" : "u157010935",
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+, 							{
+								"absolutepath" : "/Users/katrinelaukli/Desktop/myClasses/sound-synth-tech/media/RB.vox/RB.vox.sung.consonants.s.f.k.t.Db4.wav",
+								"filename" : "RB.vox.sung.consonants.s.f.k.t.Db4.wav",
+								"filekind" : "audiofile",
+								"id" : "u545010936",
+								"loop" : 1,
+								"content_state" : 								{
+									"loop" : 1
+								}
+
+							}
+, 							{
+								"absolutepath" : "/Users/katrinelaukli/Desktop/myClasses/sound-synth-tech/media/RB.vox/RB.vox.sung.fare.you.well.Bb.minor.wav",
+								"filename" : "RB.vox.sung.fare.you.well.Bb.minor.wav",
+								"filekind" : "audiofile",
+								"id" : "u764010937",
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+, 							{
+								"absolutepath" : "/Users/katrinelaukli/Desktop/myClasses/sound-synth-tech/media/RB.vox/RB.vox.sung.vocalizations.Db4-F4.wav",
+								"filename" : "RB.vox.sung.vocalizations.Db4-F4.wav",
+								"filekind" : "audiofile",
+								"id" : "u793010938",
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+, 							{
+								"absolutepath" : "/Users/katrinelaukli/Desktop/myClasses/sound-synth-tech/media/RB.vox/RB.vox.sung.vowels.Bb3.wav",
+								"filename" : "RB.vox.sung.vowels.Bb3.wav",
+								"filekind" : "audiofile",
+								"id" : "u448010939",
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+, 							{
+								"absolutepath" : "/Users/katrinelaukli/Desktop/myClasses/sound-synth-tech/media/RB.vox/RB.vox.whispered.langston.hughes.wav",
+								"filename" : "RB.vox.whispered.langston.hughes.wav",
+								"filekind" : "audiofile",
+								"id" : "u979010940",
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+ ]
+					}
+,
+					"followglobaltempo" : 0,
+					"formantcorrection" : 0,
+					"id" : "obj-17",
+					"maxclass" : "playlist~",
+					"mode" : "basic",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"originallength" : [ 0.0, "ticks" ],
+					"originaltempo" : 120.0,
+					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 196.0, 373.0, 241.0, 111.0 ],
+					"pitchcorrection" : 0,
+					"quality" : "basic",
+					"timestretch" : [ 0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -125,8 +228,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 63.0, 529.0, 64.0, 22.0 ],
-					"text" : "send~ in 1"
+					"patching_rect" : [ 63.0, 529.0, 61.0, 22.0 ],
+					"text" : "send~ in1"
 				}
 
 			}
@@ -196,45 +299,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 471.0, 409.0, 150.0, 20.0 ],
+					"patching_rect" : [ 471.0, 409.0, 241.0, 20.0 ],
 					"text" : "<playlist>"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"basictuning" : 0,
-					"clipheight" : 128.0,
-					"data" : 					{
-						"clips" : [ 							{
-								"absolutepath" : "/Users/katrinelaukli/Desktop/myClasses/sound-synth-tech/media/648437__timouse__piano-loop-21.wav",
-								"filename" : "648437__timouse__piano-loop-21.wav",
-								"filekind" : "audiofile",
-								"id" : "u181002707",
-								"loop" : 1,
-								"content_state" : 								{
-									"loop" : 1
-								}
-
-							}
- ]
-					}
-,
-					"followglobaltempo" : 0,
-					"formantcorrection" : 0,
-					"id" : "obj-16",
-					"maxclass" : "playlist~",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"originallength" : [ 0 ],
-					"originaltempo" : 0,
-					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 191.0, 369.0, 249.0, 129.0 ],
-					"pitchcorrection" : 0,
-					"quality" : 0,
-					"timestretch" : [ 0 ]
 				}
 
 			}
@@ -415,8 +481,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 2 ],
-					"midpoints" : [ 200.5, 510.0, 16.0, 510.0, 16.0, 329.0, 46.0, 329.0, 46.0, 248.0, 210.949999999999989, 248.0 ],
-					"source" : [ "obj-16", 0 ]
+					"midpoints" : [ 205.5, 513.0, 444.0, 513.0, 444.0, 282.0, 210.949999999999989, 282.0 ],
+					"source" : [ "obj-17", 0 ]
 				}
 
 			}
@@ -444,8 +510,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
-					"midpoints" : [ 353.149999999999977, 165.0, 330.0, 165.0, 330.0, 282.0, 444.0, 282.0, 444.0, 348.0, 200.5, 348.0 ],
+					"destination" : [ "obj-17", 0 ],
+					"midpoints" : [ 353.149999999999977, 165.0, 330.0, 165.0, 330.0, 282.0, 444.0, 282.0, 444.0, 360.0, 205.5, 360.0 ],
 					"order" : 1,
 					"source" : [ "obj-22", 0 ]
 				}

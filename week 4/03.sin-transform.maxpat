@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 228.0, 87.0, 1087.0, 761.0 ],
+		"rect" : [ 131.0, 87.0, 1145.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -415,8 +415,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "list" ],
-					"patching_rect" : [ 105.0, 440.0, 79.0, 22.0 ],
-					"text" : "sin-transform"
+					"patching_rect" : [ 105.0, 440.0, 80.0, 22.0 ],
+					"text" : "res-transform"
 				}
 
 			}
