@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 504.0, 93.0, 1131.0, 779.0 ],
+		"rect" : [ 275.0, 87.0, 1131.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -129,7 +129,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 617.666666666666629, 594.0, 49.0, 22.0 ],
-					"text" : "0 0 0 0"
+					"text" : "1 1 1 1"
 				}
 
 			}
@@ -179,7 +179,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -290,7 +289,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 650.0, 634.0, 179.0, 20.0 ],
+					"patching_rect" : [ 1072.0, 735.0, 179.0, 20.0 ],
 					"text" : "<= mono to stereo (no panning)"
 				}
 
