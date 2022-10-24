@@ -108,8 +108,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 566.666666666666742, 356.0, 66.0, 22.0 ],
-					"text" : "r gliss.time"
+					"patching_rect" : [ 566.666666666666742, 356.0, 83.0, 22.0 ],
+					"text" : "r #1-gliss.time"
 				}
 
 			}
@@ -145,8 +145,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 487.5, 228.0, 45.0, 22.0 ],
-					"text" : "r q.exp"
+					"patching_rect" : [ 487.5, 228.0, 63.0, 22.0 ],
+					"text" : "r #1-q.exp"
 				}
 
 			}
@@ -220,8 +220,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 313.0, 275.0, 62.0, 22.0 ],
-					"text" : "r amp.exp"
+					"patching_rect" : [ 313.0, 275.0, 79.0, 22.0 ],
+					"text" : "r #1-amp.exp"
 				}
 
 			}

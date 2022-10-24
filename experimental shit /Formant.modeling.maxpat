@@ -81,8 +81,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 480.0, 60.5, 151.0, 89.0 ],
-					"text" : ";\rone-vowel 1 350 0 40;\rone-vowel 2 600 -20 80;\rone-vowel 3 2400 -32 100;\rone-vowel 4 2675 -28 120;\rone-vowel 5 2950 -36 120"
+					"patching_rect" : [ 480.0, 60.5, 149.0, 89.0 ],
+					"text" : ";\rtwo-vowel 1 350 0 40;\rtwo-vowel 2 600 -20 80;\rtwo-vowel 3 2400 -32 100;\rtwo-vowel 4 2675 -28 120;\rtwo-vowel 5 2950 -36 120"
 				}
 
 			}
@@ -140,8 +140,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 641.5, 54.0, 151.0, 102.0 ],
-					"text" : ";\rone-vowel 1 800 0 80;\rone-vowel 2 1150 -6 90;\rone-vowel 3 2900 -32 120;\rone-vowel 4 3900 -20 130;\rone-vowel 5 4950 -50 140;\r"
+					"patching_rect" : [ 641.5, 54.0, 149.0, 102.0 ],
+					"text" : ";\rtwo-vowel 1 800 0 80;\rtwo-vowel 2 1150 -6 90;\rtwo-vowel 3 2900 -32 120;\rtwo-vowel 4 3900 -20 130;\rtwo-vowel 5 4950 -50 140;\r"
 				}
 
 			}
@@ -431,8 +431,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 823.0, 113.0, 71.0, 22.0 ],
-					"text" : "r one-vowel"
+					"patching_rect" : [ 823.0, 113.0, 69.0, 22.0 ],
+					"text" : "r two-vowel"
 				}
 
 			}
@@ -443,8 +443,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1110.0, 178.0, 65.0, 22.0 ],
-					"text" : "s gliss.exp"
+					"patching_rect" : [ 1110.0, 178.0, 82.0, 22.0 ],
+					"text" : "s #0-gliss.exp"
 				}
 
 			}
@@ -480,8 +480,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1017.0, 178.0, 47.0, 22.0 ],
-					"text" : "s q.exp"
+					"patching_rect" : [ 1017.0, 178.0, 65.0, 22.0 ],
+					"text" : "s #0-q.exp"
 				}
 
 			}
@@ -517,8 +517,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 924.0, 178.0, 64.0, 22.0 ],
-					"text" : "s amp.exp"
+					"patching_rect" : [ 924.0, 178.0, 81.0, 22.0 ],
+					"text" : "s #0-amp.exp"
 				}
 
 			}
@@ -618,7 +618,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 972.333333333333371, 333.0, 60.0, 22.0 ],
-					"text" : "1 1 1 1 1"
+					"text" : "0 0 0 0 0"
 				}
 
 			}
@@ -680,6 +680,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -790,8 +791,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "signal", "", "", "" ],
-					"patching_rect" : [ 852.0, 288.0, 143.0, 22.0 ],
-					"text" : "poly~ formant.polyCore 5"
+					"patching_rect" : [ 852.0, 288.0, 166.0, 22.0 ],
+					"text" : "poly~ formant.polyCore.v01 5"
 				}
 
 			}
@@ -799,7 +800,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 1 ],
-					"midpoints" : [ 902.833333333333371, 320.0, 952.333333333333258, 320.0 ],
+					"midpoints" : [ 910.5, 320.0, 952.333333333333258, 320.0 ],
 					"source" : [ "obj-1", 1 ]
 				}
 
@@ -807,7 +808,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 1 ],
-					"midpoints" : [ 944.166666666666629, 320.0, 1022.833333333333371, 320.0 ],
+					"midpoints" : [ 959.5, 320.0, 1022.833333333333371, 320.0 ],
 					"source" : [ "obj-1", 2 ]
 				}
 
@@ -1118,8 +1119,8 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "formant.polyCore.maxpat",
-				"bootpath" : "~/Desktop/myClasses/sound-synth-tech/week 6",
+				"name" : "formant.polyCore.v01.maxpat",
+				"bootpath" : "~/Desktop/myClasses/sound-synth-tech/experimental shit ",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

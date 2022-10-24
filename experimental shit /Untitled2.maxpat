@@ -116,7 +116,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 89.0, 464.0, 108.0, 22.0 ],
+					"patching_rect" : [ 89.0, 287.0, 108.0, 22.0 ],
 					"text" : "makenote 120 500"
 				}
 
