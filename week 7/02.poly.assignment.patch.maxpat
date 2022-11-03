@@ -153,7 +153,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 79.0, 788.5, 151.0, 89.0 ],
-					"presentation_linecount" : 6,
 					"text" : ";\rone-vowel 1 350 0 40;\rone-vowel 2 600 -20 80;\rone-vowel 3 2400 -32 100;\rone-vowel 4 2675 -28 120;\rone-vowel 5 2950 -36 120"
 				}
 
@@ -178,7 +177,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 233.5, 782.0, 162.0, 102.0 ],
-					"presentation_linecount" : 6,
 					"text" : ";\rone-vowel 1 800 0 80;\rone-vowel 2 1150 -6 90;\rone-vowel 3 2900 -32 120;\rone-vowel 4 3900 -20 130;\rone-vowel 5 4950 -50 140;\r"
 				}
 
@@ -812,7 +810,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 886.166666666666515, 1339.0, 55.666666666666742, 22.0 ],
-					"text" : "1 1 1 1 1"
+					"text" : "0 0 0 0 0"
 				}
 
 			}
@@ -1606,7 +1604,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1235.666666666666515, 709.0, 55.666666666666742, 22.0 ],
-					"text" : "1 1 1 1 1"
+					"text" : "0 0 0 0 0"
 				}
 
 			}
@@ -2400,7 +2398,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 845.166666666666515, 247.0, 55.666666666666742, 22.0 ],
-					"text" : "1 1 1 1 1"
+					"text" : "0 0 0 0 0"
 				}
 
 			}
