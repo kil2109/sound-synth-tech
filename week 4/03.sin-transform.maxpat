@@ -748,8 +748,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "list", "" ],
-					"patching_rect" : [ 105.0, 266.0, 111.0, 22.0 ],
-					"text" : "SDIF-tuples katrine"
+					"patching_rect" : [ 105.0, 266.0, 91.0, 22.0 ],
+					"text" : "SDIF-tuples kat"
 				}
 
 			}
@@ -868,8 +868,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 729.0, 153.0, 110.0, 22.0 ],
-					"text" : "SDIF-buffer katrine"
+					"patching_rect" : [ 729.0, 153.0, 90.0, 22.0 ],
+					"text" : "SDIF-buffer kat"
 				}
 
 			}
