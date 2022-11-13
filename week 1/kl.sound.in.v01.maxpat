@@ -40,14 +40,26 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 508.0, 355.0, 35.0, 22.0 ],
+					"text" : "clear"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"basictuning" : 440,
 					"clipheight" : 20.0,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "/Users/katrinelaukli/Desktop/myClasses/sound-synth-tech/media/RB.vox/RB.vox.spoken.langston.hughes.wav",
-								"filename" : "RB.vox.spoken.langston.hughes.wav",
+								"absolutepath" : "/Users/katrinelaukli/Downloads/48325__monkay__singingbowl.wav",
+								"filename" : "48325__monkay__singingbowl.wav",
 								"filekind" : "audiofile",
-								"id" : "u992010941",
+								"id" : "u983010971",
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -55,10 +67,10 @@
 
 							}
 , 							{
-								"absolutepath" : "/Users/katrinelaukli/Desktop/myClasses/sound-synth-tech/media/RB.vox/RB.vox.spoken.vowels.F#3-A#3.wav",
-								"filename" : "RB.vox.spoken.vowels.F#3-A#3.wav",
+								"absolutepath" : "/Users/katrinelaukli/Downloads/59154__coleco__singingbowl3.wav",
+								"filename" : "59154__coleco__singingbowl3.wav",
 								"filekind" : "audiofile",
-								"id" : "u157010935",
+								"id" : "u235010960",
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -66,10 +78,65 @@
 
 							}
 , 							{
-								"absolutepath" : "/Users/katrinelaukli/Desktop/myClasses/sound-synth-tech/media/RB.vox/RB.vox.sung.consonants.s.f.k.t.Db4.wav",
-								"filename" : "RB.vox.sung.consonants.s.f.k.t.Db4.wav",
+								"absolutepath" : "/Users/katrinelaukli/Downloads/204915__brodjaman__singing-bowl-a-tuned.wav",
+								"filename" : "204915__brodjaman__singing-bowl-a-tuned.wav",
 								"filekind" : "audiofile",
-								"id" : "u545010936",
+								"id" : "u857010961",
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+, 							{
+								"absolutepath" : "/Users/katrinelaukli/Downloads/240934__the-very-real-horst__neptun-solo-07-tibetan-singing-bowl.wav",
+								"filename" : "240934__the-very-real-horst__neptun-solo-07-tibetan-singing-bowl.wav",
+								"filekind" : "audiofile",
+								"id" : "u643010962",
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+, 							{
+								"absolutepath" : "/Users/katrinelaukli/Downloads/268140__the-very-real-horst__singing-bowl-chiron-with-solfeggio-963-hz-stretched-02.wav",
+								"filename" : "268140__the-very-real-horst__singing-bowl-chiron-with-solfeggio-963-hz-stretched-02.wav",
+								"filekind" : "audiofile",
+								"id" : "u303010963",
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+, 							{
+								"absolutepath" : "/Users/katrinelaukli/Downloads/439235__zambolino__singing-bowl.wav",
+								"filename" : "439235__zambolino__singing-bowl.wav",
+								"filekind" : "audiofile",
+								"id" : "u024010964",
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+, 							{
+								"absolutepath" : "/Users/katrinelaukli/Downloads/484728__breviceps__sick-synthetic-shooting-stars.wav",
+								"filename" : "484728__breviceps__sick-synthetic-shooting-stars.wav",
+								"filekind" : "audiofile",
+								"id" : "u868010965",
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+, 							{
+								"absolutepath" : "/Users/katrinelaukli/Downloads/517902__szegvari__magic-castle-crystal-synth-loop.wav",
+								"filename" : "517902__szegvari__magic-castle-crystal-synth-loop.wav",
+								"filekind" : "audiofile",
+								"id" : "u937010966",
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -77,10 +144,21 @@
 
 							}
 , 							{
-								"absolutepath" : "/Users/katrinelaukli/Desktop/myClasses/sound-synth-tech/media/RB.vox/RB.vox.sung.fare.you.well.Bb.minor.wav",
-								"filename" : "RB.vox.sung.fare.you.well.Bb.minor.wav",
+								"absolutepath" : "/Users/katrinelaukli/Downloads/560163__yajhaira__crystal-glass.wav",
+								"filename" : "560163__yajhaira__crystal-glass.wav",
 								"filekind" : "audiofile",
-								"id" : "u764010937",
+								"id" : "u694010967",
+								"loop" : 1,
+								"content_state" : 								{
+									"loop" : 1
+								}
+
+							}
+, 							{
+								"absolutepath" : "/Users/katrinelaukli/Downloads/585098__nome-diva__baschet-crystal-rubbed.wav",
+								"filename" : "585098__nome-diva__baschet-crystal-rubbed.wav",
+								"filekind" : "audiofile",
+								"id" : "u610010968",
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -88,35 +166,24 @@
 
 							}
 , 							{
-								"absolutepath" : "/Users/katrinelaukli/Desktop/myClasses/sound-synth-tech/media/RB.vox/RB.vox.sung.vocalizations.Db4-F4.wav",
-								"filename" : "RB.vox.sung.vocalizations.Db4-F4.wav",
+								"absolutepath" : "/Users/katrinelaukli/Downloads/618350__kangaroovindaloo__quiet-time-extract.m4a",
+								"filename" : "618350__kangaroovindaloo__quiet-time-extract.m4a",
 								"filekind" : "audiofile",
-								"id" : "u793010938",
-								"loop" : 0,
+								"id" : "u106010969",
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
 , 							{
-								"absolutepath" : "/Users/katrinelaukli/Desktop/myClasses/sound-synth-tech/media/RB.vox/RB.vox.sung.vowels.Bb3.wav",
-								"filename" : "RB.vox.sung.vowels.Bb3.wav",
+								"absolutepath" : "/Users/katrinelaukli/Downloads/620432__xkeril__egg-in-crystal-glass-01.wav",
+								"filename" : "620432__xkeril__egg-in-crystal-glass-01.wav",
 								"filekind" : "audiofile",
-								"id" : "u448010939",
-								"loop" : 0,
+								"id" : "u928010970",
+								"loop" : 1,
 								"content_state" : 								{
-
-								}
-
-							}
-, 							{
-								"absolutepath" : "/Users/katrinelaukli/Desktop/myClasses/sound-synth-tech/media/RB.vox/RB.vox.whispered.langston.hughes.wav",
-								"filename" : "RB.vox.whispered.langston.hughes.wav",
-								"filekind" : "audiofile",
-								"id" : "u979010940",
-								"loop" : 0,
-								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
@@ -528,6 +595,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
 					"source" : [ "obj-27", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}

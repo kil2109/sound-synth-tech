@@ -129,7 +129,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 617.666666666666629, 594.0, 49.0, 22.0 ],
-					"text" : "1 1 1 1"
+					"text" : "0 0 0 0"
 				}
 
 			}
@@ -380,7 +380,7 @@
 					"numvoices" : 2,
 					"out" : "nnnnnnn",
 					"outlettype" : [ "", "", "", "", "", "", "", "bang" ],
-					"patching_rect" : [ 162.0, 198.0, 716.0, 282.666666666666686 ],
+					"patching_rect" : [ 162.0, 180.0, 716.0, 282.666666666666686 ],
 					"pitcheditrange" : [ "null" ],
 					"stafflines" : [ 5, 5 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],

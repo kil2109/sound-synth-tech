@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 106.0, 281.0, 211.0 ],
+		"rect" : [ 1125.0, 87.0, 281.0, 211.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,11 +40,22 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 29.5, 15.0, 78.0, 22.0 ],
+					"text" : "kl.midi.in.v01"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 35.0, 63.0, 133.0, 22.0 ],
+					"patching_rect" : [ 29.5, 99.0, 133.0, 22.0 ],
 					"text" : "kl.sound.out.v01.stereo"
 				}
 
@@ -55,7 +66,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 35.0, 18.0, 89.0, 22.0 ],
+					"patching_rect" : [ 29.5, 54.0, 89.0, 22.0 ],
 					"text" : "kl.sound.in.v01"
 				}
 
@@ -91,6 +102,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "RB.vox.sung.vocalization.Db4.wav",
+				"bootpath" : "~/Desktop/myClasses/sound-synth-tech/media/sound.to.put.in.media.folder",
+				"patcherrelativepath" : "../media/sound.to.put.in.media.folder",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "RB.vox.sung.vocalizations.Db4-F4.wav",
 				"bootpath" : "~/Desktop/myClasses/sound-synth-tech/media/RB.vox",
 				"patcherrelativepath" : "../media/RB.vox",
@@ -109,6 +127,13 @@
 				"bootpath" : "~/Desktop/myClasses/sound-synth-tech/media/RB.vox",
 				"patcherrelativepath" : "../media/RB.vox",
 				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "kl.midi.in.v01.maxpat",
+				"bootpath" : "~/Desktop/myClasses/sound-synth-tech/week 1",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
