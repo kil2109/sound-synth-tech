@@ -92,7 +92,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 360.0, 52.0, 81.0, 22.0 ],
-					"text" : "receive~ out1"
+					"text" : "receive~ out2"
 				}
 
 			}
@@ -307,9 +307,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }

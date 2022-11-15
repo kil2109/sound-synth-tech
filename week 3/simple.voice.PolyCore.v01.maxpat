@@ -129,6 +129,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 242.0, 534.0, 35.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out 2"
 				}
 
@@ -140,6 +144,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 205.0, 534.0, 35.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out 1"
 				}
 
@@ -151,6 +159,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 129.0, 534.0, 42.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out~ 1"
 				}
 
@@ -163,6 +175,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 129.0, 72.0, 28.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "in 1"
 				}
 
@@ -278,7 +294,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 13.297808221660446, 0.053753453548838, 2, 64.589354219493615, 0.47034271855234, 0, 96.884031329240386, 0.268767267744194, 0, 231.761800434653594, 0.262048086050589, 0, 347.642700651980192, 0.026876726774419, 2 ],
+					"addpoints" : [ 13.297778023731782, 0.053753483786177, 2, 64.589207543840132, 0.470342983129052, 0, 96.883811315760113, 0.268767418930887, 0, 231.761274127896968, 0.262048233457614, 0, 347.641911191845054, 0.026876741893088, 2 ],
 					"domain" : 357.14300537109375,
 					"id" : "obj-21",
 					"maxclass" : "function",
@@ -286,7 +302,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "float", "", "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 242.0, 322.0, 200.0, 100.0 ],
+					"patching_rect" : [ 248.0, 322.0, 200.0, 100.0 ],
 					"range" : [ 0.0, 0.503937005996704 ]
 				}
 
@@ -607,32 +623,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "bach.args.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.expr.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.mc2f.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach 2/patchers",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/bach 2/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.playkeys.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.portal.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

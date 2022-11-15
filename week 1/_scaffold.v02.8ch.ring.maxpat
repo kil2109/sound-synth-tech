@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1062.0, 375.0, 281.0, 211.0 ],
+		"rect" : [ 1022.0, 215.0, 281.0, 211.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -55,8 +55,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 29.5, 99.0, 133.0, 22.0 ],
-					"text" : "kl.sound.out.v01.stereo"
+					"patching_rect" : [ 29.5, 99.0, 119.0, 22.0 ],
+					"text" : "kl.sound.out.v02.8ch"
 				}
 
 			}
@@ -73,6 +73,19 @@
 			}
  ],
 		"lines" : [  ],
+		"parameters" : 		{
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "204915__brodjaman__singing-bowl-a-tuned.wav",
 				"bootpath" : "~/Downloads",
@@ -172,7 +185,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "kl.sound.out.v01.stereo.maxpat",
+				"name" : "kl.sound.out.v02.8ch.maxpat",
 				"bootpath" : "~/Desktop/myClasses/sound-synth-tech/week 1",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
