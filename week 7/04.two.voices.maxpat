@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 19.0, 87.0, 1092.0, 779.0 ],
+		"rect" : [ 34.0, 87.0, 1092.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -2834,13 +2834,6 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "bach.combinevoices.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach 2/patchers",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/bach 2/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "bach.dx2x.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach 2/patchers",
 				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/bach 2/patchers",
@@ -2864,13 +2857,6 @@
 			}
 , 			{
 				"name" : "bach.filter.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach 2/patchers",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/bach 2/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.filternull.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach 2/patchers",
 				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/bach 2/patchers",
 				"type" : "JSON",
@@ -2932,13 +2918,6 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "bach.prepend.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach 2/patchers",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/bach 2/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "bach.print.mxo",
 				"type" : "iLaX"
 			}
@@ -2955,13 +2934,6 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "bach.sliceheader.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach 2/patchers",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/bach 2/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "bach.times.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach 2/patchers",
 				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/bach 2/patchers",
@@ -2971,20 +2943,6 @@
 , 			{
 				"name" : "bach.wrap.mxo",
 				"type" : "iLaX"
-			}
-, 			{
-				"name" : "cage.checkbachversion.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/cage-master/patchers",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/cage-master/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cage.combinevoices.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/cage-master/patchers",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/cage-master/patchers",
-				"type" : "JSON",
-				"implicit" : 1
 			}
 , 			{
 				"name" : "lg.nth.maxpat",

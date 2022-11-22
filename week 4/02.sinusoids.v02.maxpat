@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 186.0, 87.0, 845.0, 760.0 ],
+		"rect" : [ 186.0, 87.0, 1033.0, 760.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -546,7 +546,8 @@
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 729.0, 167.0, 110.0, 22.0 ],
 					"text" : "SDIF-buffer katrine"
 				}
@@ -832,6 +833,10 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "SDIF-buffer.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "SDIF-tuples.mxo",
 				"type" : "iLaX"
 			}

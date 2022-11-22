@@ -60,7 +60,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 909.746673583984375, 258.5, 219.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"text" : ";\rspat.oper.msg /source/[1-8]/aperture $1"
 				}
 
@@ -2360,7 +2359,7 @@
 , 			{
 				"name" : "z.ll3headsfig4.jpg",
 				"bootpath" : "~/Desktop/myClasses/sound-synth-tech/week 11/spat.boiler.patches",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "../week 11/spat.boiler.patches",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
