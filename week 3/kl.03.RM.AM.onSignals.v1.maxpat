@@ -46,8 +46,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 538.0, 89.0, 77.0, 22.0 ],
-					"text" : "receive~ in 1"
+					"patching_rect" : [ 538.0, 89.0, 74.0, 22.0 ],
+					"text" : "receive~ in1"
 				}
 
 			}
@@ -70,8 +70,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 311.333333333333314, 397.0, 77.0, 22.0 ],
-					"text" : "receive~ in 1"
+					"patching_rect" : [ 311.333333333333314, 397.0, 74.0, 22.0 ],
+					"text" : "receive~ in1"
 				}
 
 			}
@@ -83,8 +83,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 26.0, 74.0, 77.0, 22.0 ],
-					"text" : "receive~ in 1"
+					"patching_rect" : [ 26.0, 74.0, 74.0, 22.0 ],
+					"text" : "receive~ in1"
 				}
 
 			}
@@ -488,6 +488,27 @@
 			}
 , 			{
 				"box" : 				{
+					"connections" : [ 						{
+							"in" : 0,
+							"out" : 0,
+							"gain" : 1.0
+						}
+, 						{
+							"in" : 0,
+							"out" : 1,
+							"gain" : 1.0
+						}
+, 						{
+							"in" : 2,
+							"out" : 0,
+							"gain" : 1.0
+						}
+, 						{
+							"in" : 3,
+							"out" : 1,
+							"gain" : 1.0
+						}
+ ],
 					"dividers" : "none",
 					"fontface" : 0,
 					"fontname" : "Arial",

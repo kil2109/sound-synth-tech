@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 3,
-			"revision" : 2,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -493,7 +493,7 @@
 					"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 628.0, 447.5, 119.0, 41.0 ],
-					"setfilter" : [ 0, 8, 1, 0, 0, 558.19537353515625, 1.064211964607239, 2.626388072967529, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+					"setfilter" : [ 0, 8, 1, 0, 0, 329.42041015625, 0.504396557807922, 2.626388072967529, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
 				}
 
 			}
@@ -860,8 +860,8 @@
 					"numoutlets" : 7,
 					"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 107.0, 306.0, 171.0, 76.0 ],
-					"setfilter" : [ 0, 0, 1, 0, 0, 40.0, 1.0, 2.5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+					"patching_rect" : [ 107.0, 317.0, 171.0, 76.0 ],
+					"setfilter" : [ 0, 3, 1, 0, 0, 50.596778869628906, 2.221770048141479, 2.5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
 				}
 
 			}
@@ -988,21 +988,21 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "z.CMC-logo300dpi.2x.gif",
-				"bootpath" : "~/Documents/CU/Semester 11/elex.cmc/week.6.subtractive/subtractive.boiler.patches",
+				"bootpath" : "~/Desktop/myClasses/sound-synth-tech/week 6",
 				"patcherrelativepath" : ".",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "z.by-sa.2x.png",
-				"bootpath" : "~/Documents/CU/Semester 11/elex.cmc/week.6.subtractive/subtractive.boiler.patches",
+				"bootpath" : "~/Desktop/myClasses/sound-synth-tech/week 6",
 				"patcherrelativepath" : ".",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "z.credits.v01.bp.maxpat",
-				"bootpath" : "~/Documents/CU/Semester 11/elex.cmc/week.6.subtractive/subtractive.boiler.patches",
+				"bootpath" : "~/Desktop/myClasses/sound-synth-tech/week 6",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

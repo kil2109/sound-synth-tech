@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 278.0, 87.0, 802.0, 779.0 ],
+		"rect" : [ 34.0, 87.0, 802.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,17 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 151.0, 521.0, 100.0, 22.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-24",
 					"maxclass" : "newobj",
@@ -487,7 +498,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 82.5, 373.0, 22.0, 140.0 ]
+					"patching_rect" : [ 84.0, 349.0, 22.0, 140.0 ]
 				}
 
 			}
@@ -669,93 +680,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "204915__brodjaman__singing-bowl-a-tuned.wav",
-				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../../../Downloads",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "240934__the-very-real-horst__neptun-solo-07-tibetan-singing-bowl.wav",
-				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../../../Downloads",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "268140__the-very-real-horst__singing-bowl-chiron-with-solfeggio-963-hz-stretched-02.wav",
-				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../../../Downloads",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "439235__zambolino__singing-bowl.wav",
-				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../../../Downloads",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "48325__monkay__singingbowl.wav",
-				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../../../Downloads",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "484728__breviceps__sick-synthetic-shooting-stars.wav",
-				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../../../Downloads",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "517902__szegvari__magic-castle-crystal-synth-loop.wav",
-				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../../../Downloads",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "560163__yajhaira__crystal-glass.wav",
-				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../../../Downloads",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "585098__nome-diva__baschet-crystal-rubbed.wav",
-				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../../../Downloads",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "59154__coleco__singingbowl3.wav",
-				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../../../Downloads",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "618350__kangaroovindaloo__quiet-time-extract.m4a",
-				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../../../Downloads",
-				"type" : "M4a",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "620432__xkeril__egg-in-crystal-glass-01.wav",
-				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../../../Downloads",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
